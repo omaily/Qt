@@ -1,4 +1,4 @@
-package temp2
+package temp2_myButton
 
 import (
 	"os"

@@ -1,4 +1,4 @@
-package temp1
+package temp3_messege
 
 import (
 	"os"
@@ -13,7 +13,7 @@ func Start() {
 	gui.NewQGuiApplication(len(os.Args), os.Args)
 
 	var app = qml.NewQQmlApplicationEngine(nil)
-	app.Load(core.NewQUrl3("./temp1/main.qml", 0))
+	app.Load(core.NewQUrl3("./temp3_messege/main.qml", 0))
 
 	gui.QGuiApplication_Exec()
 }
